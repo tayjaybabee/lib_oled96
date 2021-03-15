@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lib_oled96"
+version = "1.0.1a"
+description = "A python library for I2C 0.96\" 128x64 OLED display using SSD1306 chip. A common library suiting both Raspberry Pi and Virtual-GPIO."
+authors = ["Taylor B. <tayjaybabee@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+"RPi.GPIO" = "^0.7.0"
+Pillow = "^8.1.2"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^3.5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
